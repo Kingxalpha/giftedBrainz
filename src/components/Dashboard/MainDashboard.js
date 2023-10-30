@@ -1,13 +1,14 @@
 import React from 'react'
 import Sidebar from './Sidebar'
+import Dashboard from './Dashboard'
 
-function Dashboard() {
+function MainDashboard() {
   return (
     <div>
         <Dashboard/>
-        <Sidebar/>
+        {/* <Sidebar/> */}
     </div>
   )
 }
 
-export default Dashboard
+export default MainDashboard
